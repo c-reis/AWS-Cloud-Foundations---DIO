@@ -31,10 +31,25 @@
 ### S3 - Simple Storage Service
 - Fornece recursos para armazenamento de objetos
 - Escalável e de alto desempenho
+- Não é global
 - Classes:
   - S3 Express One Zone: Acesso frequente, única zona de disponibilidade (Baixo custo) 
   - S3 Standard: Acesso frequente, múltiplas zonas de disponibildade
   - S3 Glacier: Baixa frequência de acesso, múltiplas zonas, baixo custo
+- Fornece recurso para versionamento
+
+### - OUs - Organizational Units
+- Agrupar contas
+- Unificar controle de políticas
+- Recomendado pela AWS a configuração de várias contas:
+  - Benefícios:
+    - Faturamento simplificado
+    - Controle de segurança flexíveis
+    - Adpatação a necessidade do negócio
+- Deve ser criadas baseadas em funções ou conjunto de controles
+> [!TIP]
+> Recomenda-se a criação de OUs de Segurança e Infraestrutura
+> Internamente seprando ambiente produtivo de não produtivo
 
 
 
