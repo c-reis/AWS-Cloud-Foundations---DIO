@@ -2,7 +2,7 @@
 
 ### EC2 - Amazon Elastic Compute Cloud
 - IAAS
-> [!TIP]
+> [!NOTE]
 > A infraestrtura é gerenciada pela AWS, mas o SO, atualizações, aplicação e segurança são gerenciadas pelo usuário.
 
 - Fornece computação em núvem escalável (Servidor virtual na nuvem)
@@ -47,7 +47,7 @@
     - Controle de segurança flexíveis
     - Adpatação a necessidade do negócio
 - Deve ser criadas baseadas em funções ou conjunto de controles
-> [!TIP]
+> [!NOTE]
 > Recomenda-se a criação de OUs de Segurança e Infraestrutura
 > Internamente seprando ambiente produtivo de não produtivo
 
